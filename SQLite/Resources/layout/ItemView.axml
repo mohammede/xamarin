@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2">
+        <TextView
+            android:text="ID"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="100px"
+            android:layout_height="match_parent"
+            android:id="@+id/textView1"
+            android:padding="15px" />
+        <TextView
+            android:text="User Name"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="250px"
+            android:layout_height="match_parent"
+            android:id="@+id/textView2"
+            android:padding="15px" />
+        <TextView
+            android:text="Email"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="200px"
+            android:layout_height="match_parent"
+            android:id="@+id/textView3"
+            android:padding="15px" />
+        <TextView
+            android:text="Password"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="200px"
+            android:layout_height="match_parent"
+            android:id="@+id/textView4"
+            android:padding="15px" />
+    </LinearLayout>
+</LinearLayout>
